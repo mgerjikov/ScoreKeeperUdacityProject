@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+
+    <!-- Custom margins used for the buttons representing yellow and red cards,
+    shots on target, etc. -->
+    <dimen name="buttons_margin_left">24dp</dimen>
+    <dimen name="button_margin_right">24dp</dimen>
+
+    <!-- Custom layout width and height for buttons representing yellow and red cards,
+     shots on target, etc.-->
+    <dimen name="secondary_buttons_width">100dp</dimen>
+    <dimen name="secondary_buttons_height">50dp</dimen>
+
+    <!-- Custom text views margins representing results for yellow and red cards,
+    shots on target, etc. -->
+    <dimen name="secondary_textviews_marginTop">8dp</dimen>
+    <dimen name="secondary_textviews_marginBottom">8dp</dimen>
+    <dimen name="secondary_textviews_marginLeft">14.5dp</dimen>
+    <dimen name="secondary_textviews_marginRight">14.5dp</dimen>
+
+    <!-- Custom margin for reset button. -->
+    <dimen name="reset_button_layout_marginBottom">12dp</dimen>
+
+    <!-- Custom margins used in the two main Score Buttons. -->
+    <dimen name="main_button_marginLeft">24dp</dimen>
+    <dimen name="main_button_marginRight">24dp</dimen>
+    <dimen name="main_button_marginBottom">8dp</dimen>
+    <dimen name="main_textview1_marginTop">16dp</dimen>
+    <dimen name="main_textview2_marginTop">16dp</dimen>
+
+    <!-- Custom layout width and height for the second big Linear Layout which
+     contains four smaller Linear Layouts representing buttons and text view results for
+     yellow and red cards, corners, etc.-->
+    <dimen name="parentTwo_linear_layout_width">500dp</dimen>
+    <dimen name="parentTwo_linear_layout_height">280dp</dimen>
+
+    <!-- Custom Linear Layout width for the layout that contains the results for
+     corners, shots on target, yellow and red cards, etc. -->
+    <dimen name="LinearLayout_childTwoParentTwo_width">65.5dp</dimen>
+
+
+
+</resources>

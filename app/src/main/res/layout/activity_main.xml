@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayout_ScoreActivity"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        style="@style/LinearLayout_ParentOne"
+        tools:context="com.example.android.courtcounter.ScoreActivity">
+
+        <LinearLayout style="@style/LinearLayout_childs">
+
+            <TextView
+                android:id="@+id/teamNameA"
+                style="@style/MainTextViews1" />
+
+            <TextView
+                android:id="@+id/home_score"
+                style="@style/MainTextViews2" />
+
+            <Button
+                style="@style/ScoreButton"
+                android:onClick="addGoalHome" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayout_childs">
+
+            <TextView
+                android:id="@+id/teamNameB"
+                style="@style/MainTextViews3" />
+
+            <TextView
+                android:id="@+id/visitor_score"
+                style="@style/MainTextViews2" />
+
+            <Button
+                style="@style/ScoreButton"
+                android:onClick="addGoalVisitor" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/reset_id"
+        style="@style/ResetButton"
+        android:onClick="resetAll" />
+
+    <LinearLayout
+        android:id="@+id/activity_main2"
+        style="@style/LinearLayout_ParentTwo"
+        tools:context="com.example.android.courtcounter.ScoreActivity">
+
+
+        <LinearLayout style="@style/LinearLayout_childOneParentTwo">
+
+            <Button
+
+                android:id="@+id/button"
+                style="@style/ButtonText"
+                android:onClick="addYellowCardHome"
+                android:text="@string/button_yellow_card" />
+
+            <Button
+
+                style="@style/ButtonText"
+                android:onClick="addRedCardHome"
+                android:text="@string/button_red_card" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addShotsOnTargetHome"
+                android:text="@string/button_shots" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addFreeKicksHome"
+                android:text="@string/button_free_kicks" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addCornersHome"
+                android:text="@string/button_corners" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/LinearLayout_childTwoParentTwo">
+
+            <TextView
+                android:id="@+id/yellow_cards_home"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/red_cards_home"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/shots_home"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/free_kicks_home"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/corners_home"
+                style="@style/StatisticsTextVies" />
+
+
+        </LinearLayout>
+
+        <TextView style="@style/LineInTheMiddle" />
+
+
+        <LinearLayout style="@style/LinearLayout_childTwoParentTwo">
+
+            <TextView
+                android:id="@+id/yellow_cards_visitor"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/red_cards_visitor"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/shots_visitor"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/free_kicks_visitor"
+                style="@style/StatisticsTextVies" />
+
+            <TextView
+                android:id="@+id/corners_visitor"
+                style="@style/StatisticsTextVies" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayout_childOneParentTwo">
+
+            <Button
+
+                style="@style/ButtonText"
+                android:onClick="addYellowCardsVisitor"
+                android:text="@string/button_yellow_card" />
+
+            <Button
+
+                style="@style/ButtonText"
+                android:onClick="addRedCardVisitor"
+                android:text="@string/button_red_card" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addShotsOnTargetVisitor"
+                android:text="@string/button_shots" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addFreeKicksVisitor"
+                android:text="@string/button_free_kicks" />
+
+            <Button
+                style="@style/ButtonText"
+                android:onClick="addCornersVisitor"
+                android:text="@string/button_corners" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

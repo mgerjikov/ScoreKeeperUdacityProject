@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout_ScoreStart"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+
+    <EditText
+        android:id="@+id/player_1"
+        style="@style/editText"
+        android:hint="@string/enter_team1" />
+
+    <EditText
+        android:id="@+id/player_2"
+        style="@style/editText"
+        android:hint="@string/enter_team2" />
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/StartButton"
+        android:onClick="loginState" />
+
+</LinearLayout>
